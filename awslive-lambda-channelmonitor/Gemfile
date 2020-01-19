@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in awslive-inputlooper.gemspec
+gem 'aws-sdk-medialive'
+gem 'aws-sdk-lambda'
+gem 'aws-sdk-cloudwatchevents'

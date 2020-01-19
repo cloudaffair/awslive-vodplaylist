@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+source "http://gems.sv2"
+
+# Specify your gem's dependencies in awslive-inputlooper.gemspec
+gem 'awslive-inputlooper'
