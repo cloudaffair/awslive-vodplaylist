@@ -8,6 +8,7 @@
 /spec/reports/
 /tmp/
 /deploy/terraform/.terraform/
+/deploy/terraform/*.tfstate*
 /awslive-lambda-channelmonitor/.bundle
 /awslive-lambda-channelmonitor/deps/*.zip
 /awslive-lambda-channelmonitor/vendor
@@ -15,4 +16,5 @@
 /awslive-lambda-inputswitch/.bundle
 /awslive-lambda-inputswitch/vendor
 /awslive-lambda-inputswitch/*.zip
+
 *.gem
