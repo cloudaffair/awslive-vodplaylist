@@ -42,9 +42,7 @@ def lambda_handler(event:, context:)
                                                                    role: "#{role_arn}",
                                                                    handler: "awslive_lambda_inputswitch.lambda_handler",
                                                                    code: {
-                                                                       #zip_file: "deps/awslive-lambda-inputswitch.zip"
-                                                                       s3_bucket: "live-elemental-clipping-test",
-                                                                       s3_key: "awslive-lambda-inputswitch.zip"
+                                                                       zip_file: open("deps/awslive-lambda-inputswitch.zip", "rb").read()
                                                                    },
                                                                    environment: {
                                                                        variables: {
